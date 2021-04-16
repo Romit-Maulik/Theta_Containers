@@ -22,7 +22,7 @@ From: centos
    # build our code
    yum update -y
    yum groupinstall -y "Development Tools"
-   yum install -y gcc g++
+   yum install -y gcc-c++
    
    # enter directory where source file was copied
    cd /myapp
