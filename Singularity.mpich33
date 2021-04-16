@@ -10,7 +10,7 @@ From: centos
    # install development tools
    yum update -y
    yum groupinstall -y "Development Tools"
-   yum install -y gcc gcc-c++ wget gcc-gfortran
+   yum install -y gcc gcc-c++ wget gcc-gfortran Xpmem-lib
    
    # install MPICH
    MPICH_VERSION=3.3
