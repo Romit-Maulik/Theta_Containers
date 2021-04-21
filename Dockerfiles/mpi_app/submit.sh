@@ -2,4 +2,4 @@
 # submit.sh
 
 echo "running MPI app"
-# ./pi
+mpirun -np $3 ./pi
