@@ -35,6 +35,7 @@ docker container ls
 ### removing images/containers
 
 ```
+docker image prune
 docker image rm (-f to force remove) --tag-- 
 docker container rm --tag--
 ```
@@ -85,9 +86,15 @@ docker build --no-cache -t hello_world .
 ### To run
 
 ```
-docker run hello_world --entrypoint /bin/bash args
+docker run hello_world args
 ```
 
 ### To build on dockerhub
 
 Push to a repository that is linked with your dockerhub account
+
+
+## Retrieving stuff on ALCF Theta
+```
+singularity build mpi_app.img docker://romitmaulik1/alcftutorial1:mpi_app
+```

@@ -1,5 +1,5 @@
 # Bootstrap our previous image
-FROM mpi_app
+FROM romitmaulik1/alcftutorial1:mpi_app
 MAINTAINER Romit rmaulik@anl.gov
 
 WORKDIR /python_app
