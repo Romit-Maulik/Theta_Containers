@@ -75,6 +75,9 @@ ENTRYPOINT ["/hello_world/submit.sh"]
 from in the directory that contains Dockerfile
 
 ```
+docker build -t hello_world .
+
+# Without cache
 docker build --no-cache -t hello_world .
 ```
 -t provides tag (or name of image)
