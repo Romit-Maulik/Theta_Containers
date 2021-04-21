@@ -25,6 +25,7 @@ RUN env | sort
 RUN mpicc -o pi -fPIC pi.c
 
 COPY submit.sh .
+
 RUN chmod +x submit.sh
 
 ENTRYPOINT ["/mpich/submit.sh"]
