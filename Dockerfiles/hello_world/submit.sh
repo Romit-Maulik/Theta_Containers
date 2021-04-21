@@ -1,4 +1,4 @@
 #!/bin/bash
-# entrypoint.sh
+# submit.sh
 
 ./hello_world
